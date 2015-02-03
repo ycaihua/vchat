@@ -1,0 +1,64 @@
+﻿生成启动时间为 2014/10/8 16:02:10。
+     1>项目“D:\vchat.git\trunk\pa_stable_v19_20140130\portaudio\build\msvc\portaudio.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\src\common /I..\..\include /I.\ /I..\..\src\os\win /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _USRDLL /D PA_ENABLE_DEBUG_OUTPUT /D _CRT_SECURE_NO_DEPRECATE /D PAWIN_USE_WDMKS_DEVICE_INFO /D PA_USE_ASIO=0 /D PA_USE_DS=0 /D PA_USE_WMME=1 /D PA_USE_WASAPI=1 /D PA_USE_WDMKS=1 /D _VC80_UPGRADE=0x0600 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\common\pa_allocation.c ..\..\src\common\pa_converters.c ..\..\src\common\pa_cpuload.c ..\..\src\common\pa_debugprint.c ..\..\src\common\pa_dither.c ..\..\src\common\pa_front.c ..\..\src\common\pa_process.c ..\..\src\common\pa_ringbuffer.c ..\..\src\common\pa_stream.c ..\..\src\common\pa_trace.c ..\..\src\hostapi\dsound\pa_win_ds.c ..\..\src\hostapi\dsound\pa_win_ds_dynlink.c ..\..\src\hostapi\skeleton\pa_hostapi_skeleton.c ..\..\src\hostapi\wasapi\pa_win_wasapi.c ..\..\src\hostapi\wdmks\pa_win_wdmks.c ..\..\src\hostapi\wmme\pa_win_wmme.c ..\..\src\os\win\pa_win_coinitialize.c ..\..\src\os\win\pa_win_hostapis.c ..\..\src\os\win\pa_win_util.c ..\..\src\os\win\pa_win_waveformat.c ..\..\src\os\win\pa_win_wdmks_utils.c ..\..\src\os\win\pa_x86_plain_converters.c
+         pa_x86_plain_converters.c
+         pa_win_wdmks_utils.c
+         pa_win_waveformat.c
+         pa_win_util.c
+         pa_win_hostapis.c
+         pa_win_coinitialize.c
+         pa_win_wmme.c
+     1>d:\vchat.git\trunk\pa_stable_v19_20140130\portaudio\src\hostapi\wmme\pa_win_wmme.c(906): warning C4996: 'GetVersionExA': 被声明为已否决
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 参见“GetVersionExA”的声明
+         pa_win_wdmks.c
+     1>d:\vchat.git\trunk\pa_stable_v19_20140130\portaudio\src\hostapi\wdmks\pa_win_wdmks.c(638): warning C4996: 'GetVersionExA': 被声明为已否决
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 参见“GetVersionExA”的声明
+         pa_win_wasapi.c
+         pa_hostapi_skeleton.c
+         pa_win_ds_dynlink.c
+         pa_win_ds.c
+     1>d:\vchat.git\trunk\pa_stable_v19_20140130\portaudio\src\hostapi\dsound\pa_win_ds.c(327): warning C4996: 'GetVersionExA': 被声明为已否决
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 参见“GetVersionExA”的声明
+         pa_trace.c
+         pa_stream.c
+         pa_ringbuffer.c
+         pa_process.c
+         pa_front.c
+         pa_dither.c
+         pa_debugprint.c
+         pa_cpuload.c
+         正在生成代码...
+         正在编译...
+         pa_converters.c
+         pa_allocation.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Win32\Debug\portaudio.lib" /NOLOGO Win32\Debug\pa_allocation.obj
+         Win32\Debug\pa_converters.obj
+         Win32\Debug\pa_cpuload.obj
+         Win32\Debug\pa_debugprint.obj
+         Win32\Debug\pa_dither.obj
+         Win32\Debug\pa_front.obj
+         Win32\Debug\pa_process.obj
+         Win32\Debug\pa_ringbuffer.obj
+         Win32\Debug\pa_stream.obj
+         Win32\Debug\pa_trace.obj
+         Win32\Debug\pa_win_ds.obj
+         Win32\Debug\pa_win_ds_dynlink.obj
+         Win32\Debug\pa_hostapi_skeleton.obj
+         Win32\Debug\pa_win_wasapi.obj
+         Win32\Debug\pa_win_wdmks.obj
+         Win32\Debug\pa_win_wmme.obj
+         Win32\Debug\pa_win_coinitialize.obj
+         Win32\Debug\pa_win_hostapis.obj
+         Win32\Debug\pa_win_util.obj
+         Win32\Debug\pa_win_waveformat.obj
+         Win32\Debug\pa_win_wdmks_utils.obj
+         Win32\Debug\pa_x86_plain_converters.obj
+         portaudio.vcxproj -> D:\vchat.git\trunk\pa_stable_v19_20140130\portaudio\build\msvc\Win32\Debug\portaudio.lib
+     1>已完成生成项目“D:\vchat.git\trunk\pa_stable_v19_20140130\portaudio\build\msvc\portaudio.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.23
